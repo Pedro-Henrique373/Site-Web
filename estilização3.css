@@ -1,0 +1,71 @@
+/* seletor de elememto, utilizado para fazer com que qualquer elemento do DOM dentro do box, tenha seu preenchimento e margem incorporados na altura e largura definidas */
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+nav {
+    background-color: rgb(38, 0, 255);
+    font-size: 22px;
+}
+
+
+header {
+    color: white;
+    margin-top: 14px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+li {
+    float: left;
+    margin-inline: 100px;
+}
+
+/* seletor de elementos, criado para fazer com que as marcações 'a' filhas da marcação 'item lista', assuman cor branca, e percam seu sublinhado */
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 26px;
+}
+
+
+.container {
+    display: grid;
+}
+
+
+.box1 {
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+
+.box2 {
+    justify-content: center;
+}
+
+/* seletor de classes, denominado como centraliza, feito com o intuito de construir um grid, com seus items centralizados dentro da pagina web */
+.centraliza {
+    display: grid; 
+    justify-content: center;
+}
+
+
+.borda {
+    border: 3px solid black;
+}

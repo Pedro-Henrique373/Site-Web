@@ -1,0 +1,73 @@
+/* seletor de elememto, utilizado para fazer com que qualquer elemento do DOM dentro do box, tenha seu preenchimento e margem incorporados na altura e largura definidas */
+html {
+    box-sizing: border-box;
+}
+
+/* seletor de elementos usado para fazer com que todos os elementos da página web, fiquem com a margem de 0px, em relação aos lados da pagina */
+body {
+    margin: 0;
+}
+
+
+nav {
+    background-color: rgb(38, 0, 255);
+    font-size: 22px;
+}
+
+
+header {
+    color: white;
+    margin-top: 14px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+li {
+    float: left;
+    margin-inline: 100px;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 22px;
+}
+
+
+.fonte{
+    font-size: 26px;
+}
+
+
+.container {
+    display: grid;
+}
+
+
+.box1 {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* seletor de classes, denominado como box2, no qual foi utilizado para centralizar todos os items de um determinada grid */
+.box2 {
+    justify-content: center;
+}
+
+
+.centraliza {
+    display: grid; 
+    justify-content: center;
+}
+
+
+
