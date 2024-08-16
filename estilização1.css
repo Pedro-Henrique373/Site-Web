@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+/* seletor de elemento, usado para fazer com que o campo de pesquisa da pagina web, fique com a cor azul, e seus elementos descemdemtes. com tamanho de fonte de 22px */
+nav {
+    background-color: rgb(43, 7, 247);
+    font-size: 22px;
+}
+
+
+header {   
+    color: white;
+    margin-top: 14px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+li {
+    float: left;
+    margin-inline: 100px;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* seletor de elementos, utilizado para deixar os elementos paragrafos, visiveis na pagina web, com tamanho de 22px */
+p {
+    font-size: 22px;   
+}
+
+/* seletor de classe, utilizado para inserir certos elementos html em uma organização de colunas e linhas */
+.container {
+    display: grid;
+}
+
+
+.centraliza {
+    display: grid; 
+    justify-content: center;
+}
+
+
+.box1 {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.box2 {
+    justify-content: center;
+}
