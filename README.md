@@ -5,4 +5,4 @@ Web, se utilizando de HMTL5 e CSS3, e hospedagem de dominío.
 -IDE Visual Studio Code (VS Code)\
 -HTML5\
 -CSS3\
--Hospedagem de site\
+-Hospedagem de site
